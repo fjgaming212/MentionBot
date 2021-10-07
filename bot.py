@@ -16,7 +16,7 @@ client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("__**Saya Adalah MentionAll Bot**, Saya Dapat Membantu Anda Mention Semua Member 👻\nClick **/help** Untuk Infromasi Lebih Lanjut__\n\n Maintaned By @fckualot",
+  await event.reply("__**Saya Adalah MentionAll Bot**, Saya Dapat Membantu Anda Mention Semua Member 👻\nClick **/help** Untuk Infromasi Lebih Lanjut__\n\n Maintaned By @FJ_GAMING",
                     buttons=(
                       [Button.url('👨‍💻 Developer', 'https://t.me/FJ_GAMING'),
                       Button.url('💬 Channel', 'https://t.me/Rizzz_Support')]
